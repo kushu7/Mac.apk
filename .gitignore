@@ -39,3 +39,8 @@ scripts/.release.env
 *.keystore
 *.jks
 node_modules
+
+# Restored after malware clean-up: keep secrets and editor tasks out of git
+.env
+.env.*
+.vscode/
